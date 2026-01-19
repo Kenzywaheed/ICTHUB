@@ -1,0 +1,93 @@
+.our-locations {
+  padding: 45px 0 60px;
+  background: #fff;
+}
+
+.our-locations-title {
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 2px;
+
+  font-size: 42px;
+  color: #111;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.location-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+.location-body {
+  padding: 18px 18px 16px;
+}
+
+
+.location-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.location-flag {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #eee;
+}
+
+.location-name {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 800;
+  color: #222;
+}
+
+.location-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.location-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0;
+  color: #333;
+  font-size: 15px;
+}
+
+.location-list i {
+  width: 18px;
+  text-align: center;
+  color: #333;
+  opacity: 0.9;
+}
+
+.location-list span {
+  color: #333;
+}
+
+
+@media (max-width: 992px) {
+  .our-locations-title {
+    font-size: 32px;
+  }
+}  
+
+.card-body {
+padding-top: 10px !important;
+padding-left: 25px !important;
+padding-right: 5px !important;
+padding-bottom: 20px !important;
+}
+
+.location-card {
+  margin: 10px auto;
+}

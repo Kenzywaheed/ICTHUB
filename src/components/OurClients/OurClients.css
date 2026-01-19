@@ -1,0 +1,42 @@
+.our-clients {
+  padding: 0px;
+  background: #fff;
+}
+
+.clients-title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  color: #111;
+}
+
+.clients-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 20px 0;
+}
+
+.clients-slide img {
+  max-width: 150px;
+  max-height: 50px;
+}
+
+@media (max-width: 768px) {
+  .clients-slide {
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .clients-slide img {
+    max-width: 120px;
+    max-height: 40px;
+  }
+
+  .clients-title {
+    font-size: 28px;
+  }
+}

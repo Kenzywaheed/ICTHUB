@@ -1,0 +1,13 @@
+.t-title{
+    background-color: #ff6a00 !important;
+    padding: 10px !important;
+    margin: 0px !important;
+    color: white !important;
+}
+.card-body{
+    padding: 0px !important;
+}
+.t-sub{
+color: black !important;
+font-weight: 400;
+}

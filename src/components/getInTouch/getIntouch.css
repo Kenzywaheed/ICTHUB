@@ -1,0 +1,30 @@
+
+.form-label{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.custom-submit {
+    border-radius: 0px;
+    border-color: #ff5000 !important;
+    margin-top: 30px;
+    background-color: #ff5000 !important;
+    width: 100px;
+    height: 50px;
+}
+
+
+
+@media (max-width: 769px) {
+ .custom-body2 {
+    height: 220px !important;
+  }
+}
+
+.error-text{
+    color: red;
+}
+
+.header{
+    margin-top: 20px;
+}
