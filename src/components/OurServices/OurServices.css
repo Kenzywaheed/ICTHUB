@@ -11,7 +11,7 @@
   margin-top: 30px;
 }
 .nav-tabs {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 .services-tabs {
   border-bottom: none !important;
@@ -33,10 +33,9 @@
   color: #fff !important;
   font-weight: 600;
 }
-.card{
-    border-radius: 0px;
-    margin-bottom: 30px;
-   
+.card {
+  border-radius: 0px;
+  margin-bottom: 30px;
 }
 .services-cards {
   display: grid;
@@ -44,11 +43,9 @@
   gap: 26px;
 }
 
-
 .service-card-img {
   height: 260px;
 }
-
 
 .service-card-body {
   padding: 18px 16px;
@@ -61,7 +58,12 @@
   line-height: 1.6;
   margin: 0;
 }
-
+.custom-head {
+  font-weight: bold !important;
+}
+.service-card {
+  padding-bottom: 20px !important ;
+}
 @media (max-width: 992px) {
   .services-cards {
     grid-template-columns: 1fr;
@@ -74,12 +76,4 @@
   .our-services-title {
     font-size: 32px;
   }
-}
-
-.custom-head{
-  font-weight: 600 !important;
-}
-
-.service-card{
-padding-bottom: 20px !important ;
 }

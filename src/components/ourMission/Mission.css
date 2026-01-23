@@ -1,13 +1,31 @@
-.t-title{
-    background-color: #ff6a00 !important;
-    padding: 10px !important;
-    margin: 0px !important;
-    color: white !important;
+.our-Mission-title {
+  text-align: center;
+ margin: 20px 0px !important;
+ font-weight: bold !important;
 }
-.card-body{
-    padding: 0px !important;
+
+.t-title {
+  background-color: #ff6a00 !important;
+  padding: 15px !important;
+  margin: 0px !important;
+  color: white !important;
+  font-size: large !important;
 }
-.t-sub{
-color: black !important;
-font-weight: 400;
+.card-body {
+  padding: 0px !important;
+}
+.card-custom {
+  height: 250px !important;
+  border-radius: 0 !important;
+  border: 1px solid rgba(139, 137, 137, 0.433) !important;
+}
+.t-sub {
+  color: black;
+  font-weight: 200;
+  padding: 15px;
+}
+
+.header-icon {
+  font-size: x-large;
+  padding-top: 2px;
 }

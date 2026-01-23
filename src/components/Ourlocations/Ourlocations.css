@@ -7,7 +7,6 @@
   text-align: center;
   font-weight: 900;
   letter-spacing: 2px;
-
   font-size: 42px;
   color: #111;
   margin-top: 20px;
@@ -74,14 +73,7 @@
   color: #333;
 }
 
-
-@media (max-width: 992px) {
-  .our-locations-title {
-    font-size: 32px;
-  }
-}  
-
-.card-body {
+.location-body {
 padding-top: 10px !important;
 padding-left: 25px !important;
 padding-right: 5px !important;
@@ -91,3 +83,10 @@ padding-bottom: 20px !important;
 .location-card {
   margin: 10px auto;
 }
+
+
+@media (max-width: 992px) {
+  .our-locations-title {
+    font-size: 32px;
+  }
+}  

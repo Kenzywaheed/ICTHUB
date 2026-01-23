@@ -3,8 +3,8 @@
   font-family: "Poppins", sans-serif;
 }
 .navbar-collapse {
-  flex-grow: 0 !important;
-  padding-right: 30px !important;
+  display: flex;
+  justify-content: center;
 }
 .nav-center {
   margin-left: 0 !important;
@@ -12,12 +12,9 @@
   display: flex !important;
   justify-content: flex-start !important;
 }
-@media (min-width: 992px) {
-  .nav-center {
-    margin-right: auto !important;
-  }
+.nav-center .nav-link {
+  font-weight: bold !important;
 }
-.nav-center .nav-link {font-weight: bold !important;}
 
 .nav-center .nav-link {
   color: #222;
@@ -31,54 +28,15 @@
   color: #ff6a00;
 }
 
-.social-icons {
-  gap: 14px;
-  margin-right: 20px;
+.my-icon{
+ padding-right: 20px !important;
 }
 
-.social-icons i {
-  font-size: 16px;
-  color: #444;
-  cursor: pointer;
-  transition: color 0.3s ease;
+@media (min-width: 992px) {
+  .nav-center {
+    margin-right: auto !important;
+  }
 }
-
-.social-icons i:hover {
-  color: #ff6a00;
-}
-
-.section-button {
-  gap: 10px;
-}
-
-.section-button .btn-light {
-  border: 1px solid transparent;
-  color: #ff6a00;
-  font-weight: 500;
-  padding: 6px 16px;
-  background-color: transparent;
-}
-
-.section-button .btn-light:hover {
-  border: 1px solid #ff6a00 !important;
-  background-color: transparent;
-  color: #ff6a00 !important;
-}
-
-.btn-custom {
-  background-color: #ff6a00 !important;
-  color: #fff !important;
-  font-weight: 500;
-  padding: 6px 18px;
-  border-radius: 6px;
-  border: none;
-}
-
-.btn-custom:hover {
-  background-color: #e85f00 !important;
-  color: white !important;
-}
-
 @media (max-width: 992px) {
   .social-icons {
     margin: 15px 0;

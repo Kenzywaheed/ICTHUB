@@ -1,91 +1,104 @@
 import React from "react";
 import "./Footer.css";
 
+import moment from "moment";
+import SocialMedia from "../SocialMedia/SocialMedia";
 function Footer() {
+
+  const CurrentYear = moment().format("YYYY");
+  
   return (
     <footer className="footer">
       <div className="container">
-        <div className="footer-grid">
-          {/* col1 */}
+        <div className="footer-grid  hide-mobile">
+          {/* col1-Address */}
           <div className="footer-col">
-            <h4>Company</h4>
-            <ul>
-              <li>Overview</li>
-              <li>Delivery Methodology</li>
-              <li>Governance Model</li>
-              <li>Career</li>
-              <li>Privacy Policy</li>
-              <li>Terms and Conditions</li>
-            </ul>
-          </div>
-
-          {/* col2 */}
-          <div className="footer-col">
-            <h4>Services</h4>
-            <ul>
-              <li>Training</li>
-              <li>Consulting</li>
-              <li>Audit</li>
-              <li>Web Development</li>
-              <li>Professional Services</li>
-              <li>Managed Services</li>
-            </ul>
-          </div>
-
-          {/* col3 */}
-          <div className="footer-col">
-            <h4>Solutions</h4>
-            <ul>
-              <li>Digital Enterprise Management</li>
-              <li>Governance, Risk and Compliance</li>
-              <li>Customer Services Management</li>
-              <li>AI & Automation</li>
-              <li>Internet of Things (IoT)</li>
-            </ul>
-          </div>
-
-          {/* col4 */}
-          <div className="footer-col">
-            <h4>Support</h4>
-            <ul>
-              <li>Support</li>
-              <li>Escalations</li>
-            </ul>
-          </div>
-
-          {/* col5 */}
-          <div className="footer-col">
-            <h4>Get In Touch</h4>
-            <ul className="contact-list">
-              <li>Send Us A Message</li>
+            <h4>Contact US</h4>
+            <ul className="list">
               <li>
-                <i className="fa fa-map-o"></i>
-                <span>Egypt, New Cairo</span>
+                <a
+                  className="custom-link"
+                  href="https://www.google.com/maps/search/?api=1&query=Building+34,+Apartment"
+                  target="_blank"
+                  rel=""
+                >
+                  Building 34, Apartment
+                </a>
               </li>
               <li>
-                <i className="fa fa-envelope-o"></i>
-                <span>info@aitbeg.com</span>
-              </li>
-              <li>
-                <i
-                  className="fa fa-mobile-phone"
-                  style={{ fontSize: "30px" }}
-                ></i>
-                <span>+2.01027089615</span>
+                <a
+                  className="custom-link"
+                  href="https://www.google.com/maps/search/?api=1&query=AlIttihad+Al+Taawuniya,+Al+Shorouk+City,+Cairo"
+                  target="_blank"
+                  rel=""
+                >
+                  AlIttihad Al Taawuniya - Al Shorouk City - Cairo
+                </a>
               </li>
             </ul>
+          </div>
 
-            <div className="footer-social">
-              <i className="fa fa-facebook"></i>
-              <i className="fa fa-instagram"></i>
-              <i className="fa fa-twitter"></i>
-              <i className="fa fa-linkedin"></i>
-            </div>
+          {/* col2-mails */}
+          <div className="footer-col">
+            <h4>Contact Email</h4>
+            <ul className="list">
+              <li>
+                <a
+                  className="custom-link"
+                  href="mailto:info@icthubeg.com
+         ?subject="
+                  target="_blank"
+                >
+                  info@icthubeg.com
+                </a>
+              </li>
+              <li>
+                <a
+                  className="custom-link"
+                  href="mailto:info@icthubeg.com
+         ?subject= "
+                >
+                  hr@icthubeg.com
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* col3-phones */}
+          <div className="footer-col ">
+            <h4>Contact Phones</h4>
+            <ul className="list">
+              <li>
+                <a className="custom-link" href="tel:01098855484">
+                  01098855484
+                </a>
+              </li>
+              <li>
+                <a className="custom-link" href="tel:01556427825">
+                  01556427825
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* col4-social media */}
+          <div className="footer-col">
+            <h4>Our Social Media and whatsapp</h4>
+            <div className="footer-icon">
+           <SocialMedia />
+           </div>
           </div>
         </div>
       </div>
+      {/* line */}
+      <hr />
 
       <div className="footer-bottom-line"></div>
+
+         {/* current year */}
+      <p className="year-footer">
+        {CurrentYear} - All Rights Reseved Egy4server
+      </p>
     </footer>
   );
 }

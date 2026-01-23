@@ -13,14 +13,6 @@
     height: 50px;
 }
 
-
-
-@media (max-width: 769px) {
- .custom-body2 {
-    height: 220px !important;
-  }
-}
-
 .error-text{
     color: red;
 }
@@ -28,3 +20,10 @@
 .header{
     margin-top: 20px;
 }
+
+@media (max-width: 769px) {
+ .custom-body2 {
+    height: 220px !important;
+  }
+}
+

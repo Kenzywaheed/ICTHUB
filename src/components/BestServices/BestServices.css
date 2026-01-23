@@ -1,0 +1,63 @@
+.best-services-title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #111;
+  margin-top: 30px;
+  margin-bottom: 20px !important;
+}
+
+.services-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+}
+
+.service-card-img {
+  height: 260px;
+}
+
+.service-card-body {
+  padding: 18px 16px;
+}
+
+.service-card-text {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+.custom-head {
+  font-weight: bold !important;
+}
+.service-card {
+  padding-bottom: 20px !important ;
+}
+
+.all-services {
+  display: inline-block !important;
+  text-decoration: none !important;
+  color: white !important;
+  background-color: #ff6a00 !important;
+  font-size: larger !important;
+  padding: 10px 20px !important;
+  border-radius: 8px !important;
+  text-align: center !important;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center !important;
+  margin-bottom: 20px !important;
+}
+@media (max-width: 992px) {
+ .service-card-img {
+    height: 220px;
+  }
+
+  .our-services-title {
+    font-size: 32px;
+  }
+}

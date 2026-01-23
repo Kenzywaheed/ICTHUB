@@ -7,12 +7,12 @@ import ServicesPage from "./Pages/ServicesPage";
 import AboutPage from "./Pages/About/AboutPage";
 // import AcademyPage from "./Pages/AcademyPage";
 import OurSolutionsPage from "./Pages/OurSolutionPage";
-import EventPage from "./components/Eventus/Event";
+
 import ContactPage from "./components/ContactUS/ContactUs";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-
+import"../src/App.css"
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         <Route path="/services" element={<ServicesPage />} />
         {/* <Route path="/academy-page" element={<AcademyPage />} /> */}
         <Route path="/solution" element={<OurSolutionsPage />} />
-        <Route path="/event" element={<EventPage />} />
+       
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />

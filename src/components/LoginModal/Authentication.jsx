@@ -1,17 +1,8 @@
-  // useMemo => mesh by3ml render kol mara w hwa by7dd el action hwa khalas al action login or register 
-  // useState => database kda
-  // useEffect => Runs on every render
-
 import { useEffect, useMemo, useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "./Authentication.css";
-
-// show => show model 
-// handelclose => close model
-// action => register or login 
-
 
 function Authentication({ show, handleClose, action }) {
   // hna ana b7dd no30 f ana b2ol el action bta3y register gher kda hykon login

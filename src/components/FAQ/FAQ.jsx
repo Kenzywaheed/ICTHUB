@@ -11,6 +11,9 @@ function FAQ() {
 
       <div className="faq-box">
         <Accordion defaultActiveKey="0" flush>
+
+          {/*first */}
+          {/* eventKey => id */}
           <Accordion.Item eventKey="0">
             <Accordion.Header>Accordion Item #1</Accordion.Header>
             <Accordion.Body>
@@ -24,7 +27,8 @@ function FAQ() {
               transition does limit overflow.
             </Accordion.Body>
           </Accordion.Item>
-
+             
+          {/* second */}
           <Accordion.Item eventKey="1">
             <Accordion.Header>Accordion Item #2</Accordion.Header>
             <Accordion.Body>
@@ -38,7 +42,9 @@ function FAQ() {
               transition does limit overflow.
             </Accordion.Body>
           </Accordion.Item>
-             {/* eventKey => id */}
+             
+
+          {/* third */}
           <Accordion.Item eventKey="2">
             <Accordion.Header>Accordion Item #3</Accordion.Header>
             <Accordion.Body>
