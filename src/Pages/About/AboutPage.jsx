@@ -1,11 +1,8 @@
 import FAQ from "../../components/FAQ/FAQ";
-
-import OverView from "../../components/Overview/Overview";
 import "./AboutUS.css" ;
 function AboutPage() {
   return (
  <>
-
  <div className="container about-container g-5 mt-5">
   <div className="col-12 col-lg-6 about-text">
     <div className="about-title">
